@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ТВОЯ СРЕДА × IT TOP — презентация коллаборации</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&family=Unbounded:wght@400;600;800&family=Inter:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ INTRO / СЛАЙД 0 ============ -->
+  <div class="intro" id="intro">
+    <div class="intro__scanlines"></div>
+
+    <div class="intro__terminal">
+      <div class="intro__bar">
+        <span>collab.exe</span>
+        <span class="intro__bar-ctrls">_ □ ×</span>
+      </div>
+      <div class="intro__body">
+        <p class="intro__line intro__line--1">&gt; init partnership…</p>
+        <p class="intro__line intro__line--2">&gt; loading brand_A …………… <span class="intro__ok">OK</span></p>
+        <p class="intro__line intro__line--3">&gt; loading brand_B …………… <span class="intro__ok">OK</span></p>
+        <p class="intro__line intro__line--4">&gt; merging identities …… <span class="intro__ok">DONE</span></p>
+      </div>
+    </div>
+
+    <div class="intro__stage">
+      <div class="intro__brand intro__brand--left">
+        <img src="assets/ittop-logo.png" alt="IT TOP" />
+      </div>
+
+      <div class="intro__x" aria-hidden="true">
+        <span class="intro__x-mark">×</span>
+        <span class="intro__x-pulse"></span>
+      </div>
+
+      <div class="intro__brand intro__brand--right">
+        <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" class="intro__brand-img" />
+      </div>
+    </div>
+
+    <div class="intro__progress">
+      <div class="intro__progress-bar"></div>
+      <div class="intro__progress-lbl">LOADING COLLAB&nbsp;<span class="blink">_</span></div>
+    </div>
+
+    <button class="intro__cta" id="introCta" type="button">
+      <span class="intro__cta-arrow">▶</span>
+      <span class="intro__cta-txt">СМОТРЕТЬ&nbsp;ПРЕЗЕНТАЦИЮ</span>
+      <span class="intro__cta-hint">[ press&nbsp;ENTER ]</span>
+    </button>
+
+    <div class="intro__caption">ТВОЯ&nbsp;СРЕДА × IT&nbsp;TOP · 2026</div>
+  </div>
+
+  <!-- ============ DECK / ПРЕЗЕНТАЦИЯ ============ -->
+  <main class="deck" id="deck">
+
+    <!-- ====== ТОПБАР ====== -->
+    <header class="topbar">
+      <div class="topbar__inner">
+        <div class="topbar__left">
+          <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" class="ts-logo-img" />
+          <span class="cross">×</span>
+          <img src="assets/ittop-logo.png" alt="IT TOP" class="ittop-logo-img" />
+        </div>
+        <div class="topbar__counter">
+          <span id="slideNum">01</span>
+          <span class="topbar__counter-sep">/</span>
+          <span id="slideTotal">13</span>
+        </div>
+        <div class="topbar__right">
+          <div class="winbtn">_</div>
+          <div class="winbtn">□</div>
+          <div class="winbtn winbtn--x">×</div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ====== НАВИГАЦИЯ ====== -->
+    <nav class="dots" id="dots" aria-label="Слайды"></nav>
+
+    <button class="prev-btn" id="prevBtn" type="button">
+      <span class="prev-btn__arrow">▲</span>
+      <span class="prev-btn__txt">НАЗАД</span>
+    </button>
+
+    <button class="next-btn" id="nextBtn" type="button">
+      <span class="next-btn__txt">ДАЛЬШЕ</span>
+      <span class="next-btn__arrow">▼</span>
+    </button>
+
+    <!-- ====== СЛАЙД 1: HERO ====== -->
+    <section class="slide slide--hero" data-title="Hero">
+      <div class="slide__inner hero-grid">
+        <div class="hero-grid__left reveal" data-anim="left">
+          <h1 class="hero__title">
+            <span class="hero__line">ТВОЯ&nbsp;СРЕДА</span>
+            <span class="hero__line hero__line--accent">×&nbsp;IT&nbsp;TOP</span>
+          </h1>
+
+          <p class="hero__sub">
+            Проводник в&nbsp;твоей цифровой среде. Бренд-коллаборация о&nbsp;технологиях,
+            стиле и&nbsp;поколении, которое выросло в&nbsp;интерфейсе.
+          </p>
+
+          <div class="collab-loop" aria-label="ТВОЯ СРЕДА × IT TOP">
+            <div class="collab-loop__scan"></div>
+            <div class="collab-loop__bar">
+              <span>collab_loop.exe</span>
+              <span class="collab-loop__dot"></span>
+              <span class="collab-loop__dot collab-loop__dot--2"></span>
+              <span class="collab-loop__dot collab-loop__dot--3"></span>
+            </div>
+            <div class="collab-loop__stage">
+              <div class="collab-loop__brand collab-loop__brand--top">
+                <img src="assets/ittop-logo.png" alt="IT TOP" />
+              </div>
+              <div class="collab-loop__x">
+                <span class="collab-loop__x-mark">×</span>
+                <span class="collab-loop__x-ring"></span>
+                <span class="collab-loop__x-ring collab-loop__x-ring--2"></span>
+              </div>
+              <div class="collab-loop__brand collab-loop__brand--ts">
+                <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" />
+              </div>
+              <span class="collab-loop__star collab-loop__star--1"></span>
+              <span class="collab-loop__star collab-loop__star--2"></span>
+              <span class="collab-loop__star collab-loop__star--3"></span>
+              <span class="collab-loop__star collab-loop__star--4"></span>
+              <span class="collab-loop__star collab-loop__star--5"></span>
+            </div>
+            <div class="collab-loop__strip">
+              <div class="collab-loop__strip-track">
+                <span>● ONLINE</span><span>· PARTNERSHIP&nbsp;2026</span><span>· EDU&nbsp;×&nbsp;DIGITAL</span><span>· LEVEL&nbsp;UP</span>
+                <span>● ONLINE</span><span>· PARTNERSHIP&nbsp;2026</span><span>· EDU&nbsp;×&nbsp;DIGITAL</span><span>· LEVEL&nbsp;UP</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__chips">
+            <span class="chip">PIXEL ART</span>
+            <span class="chip">STREET</span>
+            <span class="chip">EDU&nbsp;TECH</span>
+            <span class="chip">Z&nbsp;/&nbsp;ALPHA</span>
+          </div>
+        </div>
+
+        <div class="hero-grid__right reveal" data-anim="right">
+          <div class="hero-stage" aria-hidden="false">
+            <!-- backdrop -->
+            <div class="hero-stage__grid"></div>
+            <div class="hero-stage__scan"></div>
+            <div class="hero-stage__glow"></div>
+
+            <!-- мини-окошки на орбите -->
+            <div class="mini-win mini-win--1">
+              <div class="mini-win__bar"><span>terminal</span><span>×</span></div>
+              <div class="mini-win__body">
+                <span class="mini-win__line">&gt; run.sh</span>
+                <span class="mini-win__line">&gt; ok <span class="mini-win__blink">_</span></span>
+              </div>
+            </div>
+
+            <div class="mini-win mini-win--2">
+              <div class="mini-win__bar mini-win__bar--alt"><span>chat</span><span>_□×</span></div>
+              <div class="mini-win__body mini-win__body--alt">
+                <span class="mini-win__msg">ГОУ&nbsp;ИССЛЕДОВАТЬ!</span>
+              </div>
+            </div>
+
+            <div class="mini-win mini-win--3">
+              <div class="mini-win__bar"><span>stats</span><span>×</span></div>
+              <div class="mini-win__body">
+                <span class="mini-win__bars">
+                  <i style="--h:60%"></i><i style="--h:80%"></i><i style="--h:45%"></i><i style="--h:90%"></i>
+                </span>
+              </div>
+            </div>
+
+            <!-- центральный маскот -->
+            <div class="hero-stage__mascot">
+              <img src="assets/mascot-graduate.jpg" alt="Маскот ТВОЯ СРЕДА" />
+            </div>
+
+            <!-- пиксельные орбитальные курсоры -->
+            <svg class="orbit-cursor orbit-cursor--a" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 2 L3 18 L7 14 L9 20 L12 19 L10 13 L16 13 Z" fill="#fff" stroke="#0033ff" stroke-width="1"/>
+            </svg>
+            <svg class="orbit-cursor orbit-cursor--b" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M3 2 L3 18 L7 14 L9 20 L12 19 L10 13 L16 13 Z" fill="#DC143C" stroke="#fff" stroke-width="1"/>
+            </svg>
+
+            <!-- летающие пиксельные сердечки/звёзды -->
+            <span class="px-shape px-heart px-heart--1" aria-hidden="true"></span>
+            <span class="px-shape px-heart px-heart--2" aria-hidden="true"></span>
+            <span class="px-shape px-star px-star--1" aria-hidden="true"></span>
+            <span class="px-shape px-star px-star--2" aria-hidden="true"></span>
+            <span class="px-shape px-star px-star--3" aria-hidden="true"></span>
+
+            <!-- статус-чип внизу -->
+            <div class="hero-stage__status">
+              <span class="hero-stage__status-dot"></span>
+              LIVE&nbsp;·&nbsp;COLLAB&nbsp;ACTIVE
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slide__hint">↓ scroll или клавиша&nbsp;<kbd>↓</kbd></div>
+    </section>
+
+    <!-- ====== СЛАЙД 2: О ПРОЕКТЕ ====== -->
+    <section class="slide slide--about" data-title="О проекте">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 02 — О ПРОЕКТЕ</div>
+          <h2 class="section__title">Кто такая <span class="accent-blue">ТВОЯ&nbsp;СРЕДА</span></h2>
+        </div>
+
+        <div class="about__grid">
+          <div class="about__txt reveal" data-anim="up" style="--d:.1s">
+            <p class="about__lead">
+              <span class="about__marker"></span>
+              <strong>ТВОЯ&nbsp;СРЕДА</strong>&nbsp;— цифровая среда для&nbsp;развития студентов,
+              команд и&nbsp;проектов.
+            </p>
+
+            <p class="about__p">
+              Мы&nbsp;не&nbsp;заменяем образовательный процесс и&nbsp;не&nbsp;конкурируем с&nbsp;учебными
+              программами партнёров. Наша задача&nbsp;— <em>усиливать практическую часть</em>:
+              помогать участникам применять знания в&nbsp;реальных задачах, собирать команды,
+              развивать проекты и&nbsp;готовиться к&nbsp;профессиональному старту.
+            </p>
+
+            <p class="about__p">
+              Внутри среды пользователи могут работать с&nbsp;ИИ-инструментами,
+              формировать личную траекторию развития, готовить резюме,
+              тренироваться перед собеседованиями, получать проектные задачи,
+              собирать портфолио и&nbsp;находить единомышленников для&nbsp;совместной работы.
+            </p>
+
+            <div class="about__pull">
+              <span class="about__pull-bar"></span>
+              <p>
+                <strong>ТВОЯ&nbsp;СРЕДА</strong>&nbsp;— это пространство, где <span class="accent-blue">идеи становятся
+                проектами</span>, а&nbsp;участники получают инструменты для&nbsp;роста, практики
+                и&nbsp;выхода на&nbsp;реальные возможности.
+              </p>
+            </div>
+          </div>
+
+          <!-- Анимированная панель модулей -->
+          <div class="modules reveal" data-anim="right" style="--d:.2s" aria-label="Модули ТВОЕЙ СРЕДЫ">
+            <div class="modules__bar">
+              <span class="modules__title">tvoya-sreda://modules</span>
+              <span class="modules__bar-ctrls">
+                <i class="modules__led"></i>
+                <i class="modules__led modules__led--2"></i>
+                <i class="modules__led modules__led--3"></i>
+              </span>
+            </div>
+
+            <div class="modules__grid">
+              <article class="mod" style="--i:0">
+                <div class="mod__icon">
+                  <!-- AI / brain -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="3" y="2" width="10" height="2" fill="currentColor"/>
+                    <rect x="2" y="4" width="2" height="8" fill="currentColor"/>
+                    <rect x="12" y="4" width="2" height="8" fill="currentColor"/>
+                    <rect x="3" y="12" width="10" height="2" fill="currentColor"/>
+                    <rect x="5" y="6" width="2" height="2" fill="currentColor"/>
+                    <rect x="9" y="6" width="2" height="2" fill="currentColor"/>
+                    <rect x="5" y="9" width="6" height="1" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>AI&nbsp;TOOLS</h3>
+                <p>работа с&nbsp;ИИ-инструментами</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:1">
+                <div class="mod__icon">
+                  <!-- Roadmap -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="2" y="3" width="3" height="3" fill="currentColor"/>
+                    <rect x="7" y="3" width="3" height="3" fill="currentColor"/>
+                    <rect x="12" y="3" width="2" height="3" fill="currentColor"/>
+                    <rect x="2" y="10" width="3" height="3" fill="currentColor"/>
+                    <rect x="7" y="10" width="3" height="3" fill="currentColor"/>
+                    <rect x="12" y="10" width="2" height="3" fill="currentColor"/>
+                    <rect x="5" y="4" width="2" height="1" fill="currentColor"/>
+                    <rect x="10" y="4" width="2" height="1" fill="currentColor"/>
+                    <rect x="3" y="6" width="1" height="4" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>ТРАЕКТОРИЯ</h3>
+                <p>личный план развития</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:2">
+                <div class="mod__icon">
+                  <!-- CV / резюме -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="3" y="1" width="10" height="14" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="5" y="4" width="6" height="1" fill="currentColor"/>
+                    <rect x="5" y="6" width="6" height="1" fill="currentColor"/>
+                    <rect x="5" y="8" width="6" height="1" fill="currentColor"/>
+                    <rect x="5" y="10" width="4" height="1" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>РЕЗЮМЕ</h3>
+                <p>генерация и&nbsp;ревью CV</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:3">
+                <div class="mod__icon">
+                  <!-- chat / interview -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="1" y="2" width="12" height="9" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="4" y="11" width="2" height="2" fill="currentColor"/>
+                    <rect x="4" y="5" width="2" height="2" fill="currentColor"/>
+                    <rect x="8" y="5" width="2" height="2" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>СОБЕС.</h3>
+                <p>тренировка интервью</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:4">
+                <div class="mod__icon">
+                  <!-- tasks / checklist -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="2" y="3" width="3" height="3" fill="currentColor"/>
+                    <rect x="2" y="10" width="3" height="3" fill="currentColor"/>
+                    <rect x="7" y="4" width="7" height="1" fill="currentColor"/>
+                    <rect x="7" y="11" width="7" height="1" fill="currentColor"/>
+                    <rect x="3" y="4" width="1" height="1" fill="#fff"/>
+                  </svg>
+                </div>
+                <h3>ЗАДАЧИ</h3>
+                <p>реальные проектные кейсы</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:5">
+                <div class="mod__icon">
+                  <!-- portfolio -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="2" y="4" width="12" height="10" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                    <rect x="6" y="2" width="4" height="2" fill="currentColor"/>
+                    <rect x="2" y="8" width="12" height="1" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>ПОРТФОЛИО</h3>
+                <p>витрина проектов</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:6">
+                <div class="mod__icon">
+                  <!-- team -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="3" y="3" width="3" height="3" fill="currentColor"/>
+                    <rect x="10" y="3" width="3" height="3" fill="currentColor"/>
+                    <rect x="1" y="9" width="6" height="5" fill="currentColor"/>
+                    <rect x="9" y="9" width="6" height="5" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>КОМАНДА</h3>
+                <p>поиск единомышленников</p>
+                <span class="mod__pulse"></span>
+              </article>
+
+              <article class="mod" style="--i:7">
+                <div class="mod__icon">
+                  <!-- rocket / launch -->
+                  <svg viewBox="0 0 16 16" width="32" height="32" aria-hidden="true">
+                    <rect x="7" y="1" width="2" height="2" fill="currentColor"/>
+                    <rect x="6" y="3" width="4" height="3" fill="currentColor"/>
+                    <rect x="5" y="6" width="6" height="4" fill="currentColor"/>
+                    <rect x="6" y="10" width="4" height="2" fill="currentColor"/>
+                    <rect x="4" y="11" width="2" height="3" fill="currentColor"/>
+                    <rect x="10" y="11" width="2" height="3" fill="currentColor"/>
+                    <rect x="7" y="13" width="2" height="2" fill="currentColor"/>
+                  </svg>
+                </div>
+                <h3>СТАРТ</h3>
+                <p>выход на&nbsp;возможности</p>
+                <span class="mod__pulse"></span>
+              </article>
+            </div>
+
+            <div class="modules__status">
+              <span class="modules__status-dot"></span>
+              8&nbsp;modules&nbsp;·&nbsp;all&nbsp;systems&nbsp;operational
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 3: ЗАЧЕМ ВМЕСТЕ ====== -->
+    <section class="slide slide--concept slide--blue" data-title="Зачем вместе">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag tag--light">_□× / СЛАЙД 03 — ЗАЧЕМ ВМЕСТЕ</div>
+          <h2 class="section__title section__title--light">
+            Где мы&nbsp;<span class="accent-white">усиливаем</span> друг&nbsp;друга
+          </h2>
+          <p class="lead lead--light concept__lead">
+            Студенту мало пройти программу. Нужно знать, <em>как применить</em> знания,
+            <em>где попробовать</em> себя и&nbsp;<em>как</em> превратить учёбу в&nbsp;результат.
+            Здесь начинается коллаб.
+          </p>
+        </div>
+
+        <!-- Двойной merge: IT TOP × ТВОЯ СРЕДА -->
+        <div class="merge">
+          <div class="merge__side merge__side--top reveal" data-anim="left" style="--d:.1s">
+            <div class="merge__head">
+              <img src="assets/ittop-logo.png" alt="IT TOP" />
+              <span class="merge__role">даёт фундамент</span>
+            </div>
+            <ul class="merge__list">
+              <li><span class="merge__bullet"></span> программа, методология, расписание</li>
+              <li><span class="merge__bullet"></span> преподаватели и&nbsp;кураторы</li>
+              <li><span class="merge__bullet"></span> аудитории, оборудование, аккредитация</li>
+              <li><span class="merge__bullet"></span> доверие родителей и&nbsp;статус документа</li>
+              <li><span class="merge__bullet"></span> входящий поток студентов</li>
+            </ul>
+          </div>
+
+          <div class="merge__x reveal" data-anim="scale" style="--d:.3s" aria-hidden="true">
+            <span class="merge__x-line"></span>
+            <span class="merge__x-mark">×</span>
+            <span class="merge__x-line"></span>
+          </div>
+
+          <div class="merge__side merge__side--ts reveal" data-anim="right" style="--d:.1s">
+            <div class="merge__head">
+              <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" />
+              <span class="merge__role">даёт прикладной слой</span>
+            </div>
+            <ul class="merge__list">
+              <li><span class="merge__bullet"></span> цифровая платформа с&nbsp;ИИ-навигатором</li>
+              <li><span class="merge__bullet"></span> заказы и&nbsp;брифы от&nbsp;реального бизнеса</li>
+              <li><span class="merge__bullet"></span> матчинг в&nbsp;команды и&nbsp;менторство</li>
+              <li><span class="merge__bullet"></span> карьерный шлюз к&nbsp;работодателям</li>
+              <li><span class="merge__bullet"></span> аналитика прогресса и&nbsp;soft-skills</li>
+            </ul>
+          </div>
+
+          <div class="merge__result reveal" data-anim="up" style="--d:.5s">
+            <span class="merge__result-eq">=</span>
+            <div class="merge__result-txt">
+              <strong>Усиленный путь студента</strong>
+              <span>от&nbsp;навыков&nbsp;— к&nbsp;практике, проектам и&nbsp;первой работе</span>
+            </div>
+            <div class="merge__result-arrow">▶</div>
+          </div>
+        </div>
+
+        <p class="concept__footnote reveal" data-anim="up" style="--d:.7s">
+          ▣ Не&nbsp;заменяем обучение&nbsp;— усиливаем. Win-win:
+          IT&nbsp;TOP получает слой практики вокруг студентов,
+          ТВОЯ&nbsp;СРЕДА&nbsp;— живую среду с&nbsp;реальными пользователями.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 4: НЕ КОНКУРЕНЦИЯ — УСИЛЕНИЕ ====== -->
+    <section class="slide slide--vs slide--blue" data-title="Не конкуренция">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag tag--light">_□× / СЛАЙД 04 — НЕ КОНКУРЕНЦИЯ</div>
+          <h2 class="section__title section__title--light">
+            Не <span class="vs-strike">конкуренция</span> — <span class="accent-white">взаимное усиление</span>
+          </h2>
+          <p class="lead lead--light vs__lead">
+            У&nbsp;ТВОЕЙ&nbsp;СРЕДЫ есть свои образовательные траектории&nbsp;— IT, дизайн,
+            проекты, ИИ, карьера. Но&nbsp;мы&nbsp;<em>не&nbsp;заменяем</em> основное обучение
+            и&nbsp;<em>не&nbsp;выдаём</em> дипломы гос.&nbsp;образца. Наша роль другая.
+          </p>
+        </div>
+
+        <div class="vs">
+          <!-- Левая колонка: что мы НЕ делаем -->
+          <div class="vs__col vs__col--no reveal" data-anim="left" style="--d:.1s">
+            <div class="vs__head">
+              <span class="vs__head-mark">✗</span>
+              <span class="vs__head-lbl">мы&nbsp;НЕ&nbsp;являемся</span>
+            </div>
+            <ul class="vs__list">
+              <li><span class="vs__cross">×</span><span>заменой основной программы</span></li>
+              <li><span class="vs__cross">×</span><span>конкурентом учебных курсов</span></li>
+              <li><span class="vs__cross">×</span><span>системой переподготовки с&nbsp;дипломами гос.&nbsp;образца</span></li>
+              <li><span class="vs__cross">×</span><span>отдельным образовательным учреждением</span></li>
+            </ul>
+          </div>
+
+          <!-- Центральная стрелка / merge -->
+          <div class="vs__bridge reveal" data-anim="scale" style="--d:.25s" aria-hidden="true">
+            <span class="vs__bridge-arrow">▶</span>
+            <span class="vs__bridge-arrow">▶</span>
+            <span class="vs__bridge-arrow">▶</span>
+          </div>
+
+          <!-- Правая колонка: как мы работаем -->
+          <div class="vs__col vs__col--yes reveal" data-anim="right" style="--d:.1s">
+            <div class="vs__head vs__head--yes">
+              <span class="vs__head-mark">✓</span>
+              <span class="vs__head-lbl">мы&nbsp;<strong>УСИЛИВАЕМ</strong> программу</span>
+            </div>
+            <ul class="vs__list vs__list--yes">
+              <li><span class="vs__check">▣</span><span>встраиваемся в&nbsp;ваше расписание и&nbsp;ритм</span></li>
+              <li><span class="vs__check">▣</span><span>работаем по&nbsp;принципу <em>поверх</em>, а&nbsp;не&nbsp;<em>вместо</em></span></li>
+              <li><span class="vs__check">▣</span><span>не&nbsp;дублируем то, что у&nbsp;вас уже есть</span></li>
+              <li><span class="vs__check">▣</span><span>цифровой контур «под&nbsp;ключ»&nbsp;— без&nbsp;нагрузки на&nbsp;штат</span></li>
+              <li><span class="vs__check">▣</span><span>масштабируемся под&nbsp;школу, колледж, вуз</span></li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Формула партнёрства -->
+        <div class="formula reveal" data-anim="up" style="--d:.45s">
+          <div class="formula__part">
+            <img src="assets/ittop-logo.png" alt="IT TOP" />
+            <span class="formula__role">образовательная экспертиза</span>
+          </div>
+          <span class="formula__op">+</span>
+          <div class="formula__part formula__part--ts">
+            <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" />
+            <span class="formula__role">цифровой контур развития</span>
+          </div>
+          <span class="formula__op formula__op--eq">=</span>
+          <div class="formula__result">
+            <strong>больше возможностей</strong>
+            <span>меньше пробелов в&nbsp;пути студента</span>
+          </div>
+        </div>
+
+        <p class="vs__footnote reveal" data-anim="up" style="--d:.6s">
+          ▣ Подходит для&nbsp;академий, колледжей, вузов и&nbsp;школ&nbsp;— масштабируется
+          под&nbsp;любой формат образовательной площадки.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 5: ПУТЬ СТУДЕНТА ====== -->
+    <section class="slide slide--journey" data-title="Путь студента">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 05 — ПУТЬ СТУДЕНТА</div>
+          <h2 class="section__title">
+            От&nbsp;<span class="accent-blue">обучения</span> — к&nbsp;профессии
+          </h2>
+          <p class="lead">
+            Один маршрут вместо разрозненных активностей. Студент не&nbsp;остаётся один
+            на&nbsp;один с&nbsp;вопросом <em>«что дальше?»</em>&nbsp;— на&nbsp;каждом шаге есть инструмент,
+            формат и&nbsp;поддержка.
+          </p>
+        </div>
+
+        <!-- Дорожка с маскотом-выпускником -->
+        <div class="journey reveal" data-anim="up" style="--d:.2s">
+          <!-- маскот движется по пути -->
+          <div class="journey__mascot">
+            <img src="assets/mascot-graduate.jpg" alt="Маскот ТВОЯ СРЕДА" />
+            <span class="journey__mascot-shadow"></span>
+          </div>
+
+          <!-- линия пути -->
+          <div class="journey__track">
+            <span class="journey__track-fill"></span>
+          </div>
+
+          <!-- этапы -->
+          <ol class="journey__steps">
+            <li class="step" style="--i:0">
+              <span class="step__pin"></span>
+              <span class="step__num">01</span>
+              <h4>Навыки</h4>
+              <p>погружение в&nbsp;программу</p>
+            </li>
+            <li class="step" style="--i:1">
+              <span class="step__pin"></span>
+              <span class="step__num">02</span>
+              <h4>Практика</h4>
+              <p>закрепление на&nbsp;заданиях</p>
+            </li>
+            <li class="step" style="--i:2">
+              <span class="step__pin"></span>
+              <span class="step__num">03</span>
+              <h4>Проекты</h4>
+              <p>командная работа над&nbsp;кейсами</p>
+            </li>
+            <li class="step" style="--i:3">
+              <span class="step__pin"></span>
+              <span class="step__num">04</span>
+              <h4>Портфолио</h4>
+              <p>оформление результата</p>
+            </li>
+            <li class="step" style="--i:4">
+              <span class="step__pin"></span>
+              <span class="step__num">05</span>
+              <h4>Собес</h4>
+              <p>тренировка интервью</p>
+            </li>
+            <li class="step step--final" style="--i:5">
+              <span class="step__pin"></span>
+              <span class="step__num">06</span>
+              <h4>Старт</h4>
+              <p>выход к&nbsp;работодателю</p>
+              <span class="step__flag">★</span>
+            </li>
+          </ol>
+        </div>
+
+        <div class="journey__bottom reveal" data-anim="up" style="--d:.4s">
+          <div class="journey__chip">
+            <span class="journey__chip-lbl">для IT&nbsp;TOP</span>
+            <span>+&nbsp;слой практики и&nbsp;проектов вокруг студентов</span>
+          </div>
+          <div class="journey__chip journey__chip--alt">
+            <span class="journey__chip-lbl">для ТВОЕЙ&nbsp;СРЕДЫ</span>
+            <span>+&nbsp;живая среда с&nbsp;реальными пользователями</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 6: СОБЫТИЯ ====== -->
+    <section class="slide slide--events" data-title="События">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 06 — СОБЫТИЯ КАК ДРАЙВ</div>
+          <h2 class="section__title">
+            События&nbsp;<span class="accent-blue">=</span> вовлечение
+          </h2>
+          <p class="lead events__lead">
+            Турниры, хакатоны и&nbsp;интенсивы превращают учёбу в&nbsp;драйв.
+            Особенно в&nbsp;колледжах и&nbsp;вузах, где <em>студ.&nbsp;движение
+            и&nbsp;проектная культура</em>&nbsp;— отдельная точка роста.
+          </p>
+        </div>
+
+        <!-- Табло с форматами событий -->
+        <div class="events">
+          <!-- Хедер табло -->
+          <div class="events__bar">
+            <span class="events__bar-lbl">EVENT&nbsp;BOARD&nbsp;//&nbsp;LIVE</span>
+            <span class="events__bar-stats">
+              <i class="events__led"></i>
+              <i class="events__led events__led--2"></i>
+              <i class="events__led events__led--3"></i>
+            </span>
+          </div>
+
+          <!-- 6 форматов -->
+          <div class="events__grid">
+            <article class="event-card reveal" data-anim="up" style="--d:.05s; --i:0">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="3" y="2" width="10" height="2" fill="currentColor"/>
+                  <rect x="2" y="4" width="2" height="9" fill="currentColor"/>
+                  <rect x="12" y="4" width="2" height="9" fill="currentColor"/>
+                  <rect x="6" y="6" width="4" height="2" fill="currentColor"/>
+                  <rect x="6" y="10" width="4" height="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">24–48&nbsp;ч</span>
+              </div>
+              <h3>Хакатоны</h3>
+              <p>командный спринт по&nbsp;реальной задаче</p>
+              <span class="event-card__pulse"></span>
+            </article>
+
+            <article class="event-card reveal" data-anim="up" style="--d:.1s; --i:1">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="2" y="12" width="3" height="2" fill="currentColor"/>
+                  <rect x="6" y="9" width="4" height="5" fill="currentColor"/>
+                  <rect x="11" y="11" width="3" height="3" fill="currentColor"/>
+                  <rect x="6" y="6" width="4" height="2" fill="currentColor"/>
+                  <rect x="7" y="3" width="2" height="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">лига</span>
+              </div>
+              <h3>Турниры</h3>
+              <p>группы и&nbsp;потоки в&nbsp;битве за&nbsp;кубок</p>
+              <span class="event-card__pulse"></span>
+            </article>
+
+            <article class="event-card reveal" data-anim="up" style="--d:.15s; --i:2">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="2" y="3" width="12" height="2" fill="currentColor"/>
+                  <rect x="2" y="5" width="2" height="9" fill="currentColor"/>
+                  <rect x="12" y="5" width="2" height="9" fill="currentColor"/>
+                  <rect x="5" y="7" width="6" height="1" fill="currentColor"/>
+                  <rect x="5" y="9" width="6" height="1" fill="currentColor"/>
+                  <rect x="5" y="11" width="4" height="1" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">1–2&nbsp;недели</span>
+              </div>
+              <h3>Интенсивы</h3>
+              <p>фокус-погружение в&nbsp;проект</p>
+              <span class="event-card__pulse"></span>
+            </article>
+
+            <article class="event-card reveal" data-anim="up" style="--d:.2s; --i:3">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="5" y="2" width="6" height="2" fill="currentColor"/>
+                  <rect x="3" y="4" width="10" height="6" fill="currentColor"/>
+                  <rect x="6" y="10" width="4" height="2" fill="currentColor"/>
+                  <rect x="4" y="12" width="8" height="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">★&nbsp;призы</span>
+              </div>
+              <h3>Конкурсы</h3>
+              <p>лучшая идея, решение, питч</p>
+              <span class="event-card__pulse"></span>
+            </article>
+
+            <article class="event-card reveal" data-anim="up" style="--d:.25s; --i:4">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="2" y="4" width="3" height="3" fill="currentColor"/>
+                  <rect x="2" y="9" width="3" height="3" fill="currentColor"/>
+                  <rect x="6" y="5" width="8" height="1" fill="currentColor"/>
+                  <rect x="6" y="10" width="8" height="1" fill="currentColor"/>
+                  <rect x="3" y="5" width="1" height="1" fill="#fff"/>
+                  <rect x="3" y="10" width="1" height="1" fill="#fff"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">дедлайн</span>
+              </div>
+              <h3>Челленджи</h3>
+              <p>микро-задачи с&nbsp;судейством</p>
+              <span class="event-card__pulse"></span>
+            </article>
+
+            <article class="event-card event-card--accent reveal" data-anim="up" style="--d:.3s; --i:5">
+              <div class="event-card__icon">
+                <svg viewBox="0 0 16 16" width="28" height="28" aria-hidden="true">
+                  <rect x="2" y="3" width="12" height="8" fill="none" stroke="currentColor" stroke-width="1.5"/>
+                  <rect x="4" y="5" width="3" height="4" fill="currentColor"/>
+                  <rect x="8" y="5" width="4" height="1" fill="currentColor"/>
+                  <rect x="8" y="7" width="4" height="1" fill="currentColor"/>
+                  <rect x="6" y="13" width="4" height="1" fill="currentColor"/>
+                  <rect x="7" y="11" width="2" height="2" fill="currentColor"/>
+                </svg>
+              </div>
+              <div class="event-card__meta">
+                <span class="event-card__badge">B2B</span>
+              </div>
+              <h3>Демо-дни</h3>
+              <p>питч проектов реальным компаниям</p>
+              <span class="event-card__pulse"></span>
+            </article>
+          </div>
+
+          <!-- Toolbar: под капотом -->
+          <div class="events__toolbar">
+            <span class="events__toolbar-lbl">⚙ под&nbsp;капотом ТВОЕЙ&nbsp;СРЕДЫ:</span>
+            <div class="events__tools">
+              <span class="event-tool">▣ платформа</span>
+              <span class="event-tool">▣ брифы</span>
+              <span class="event-tool">▣ команды</span>
+              <span class="event-tool">▣ ИИ-помощники</span>
+              <span class="event-tool">▣ лидерборд</span>
+              <span class="event-tool">▣ сертификаты</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Win-win плашки -->
+        <div class="events__bottom reveal" data-anim="up" style="--d:.4s">
+          <div class="journey__chip">
+            <span class="journey__chip-lbl">для IT&nbsp;TOP</span>
+            <span>+&nbsp;живое студ.&nbsp;движение и&nbsp;проектная культура</span>
+          </div>
+          <div class="journey__chip journey__chip--alt">
+            <span class="journey__chip-lbl">для ТВОЕЙ&nbsp;СРЕДЫ</span>
+            <span>+&nbsp;юзкейсы платформы и&nbsp;истории успеха</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 7: PROOF — КЕЙС КИБЕРСПОРТА ====== -->
+    <section class="slide slide--proof slide--blue" data-title="Уже работает">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag tag--light proof__live">
+            <span class="proof__live-dot"></span>
+            СЛАЙД 07 — PROOF / КЕЙС
+          </div>
+          <h2 class="section__title section__title--light">
+            Уже&nbsp;<span class="accent-white">работает</span>&nbsp;— а&nbsp;не&nbsp;в&nbsp;планах
+          </h2>
+          <p class="lead lead--light proof__lead">
+            <strong>Киберспорт-направление</strong> в&nbsp;IT&nbsp;TOP&nbsp;СПб (Итальянская)
+            запущено совместно с&nbsp;клубом <strong>«Квазар»</strong> и&nbsp;при участии
+            ТВОЕЙ&nbsp;СРЕДЫ. Первые турниры прошли&nbsp;— студ.&nbsp;среда ожила.
+          </p>
+        </div>
+
+        <!-- HUD: верхняя плашка с метриками -->
+        <div class="proof-hud reveal" data-anim="up" style="--d:.1s">
+          <div class="proof-hud__bar">
+            <span class="proof-hud__tag">
+              <span class="proof-hud__pulse"></span>
+              LIVE&nbsp;PILOT
+            </span>
+            <span class="proof-hud__partners">
+              <img src="assets/ittop-logo.png" alt="IT TOP" />
+              <span class="proof-hud__x">×</span>
+              <img src="assets/tvoya-sreda-logo.jpg" alt="ТВОЯ СРЕДА" />
+              <span class="proof-hud__x">×</span>
+              <span class="proof-hud__quasar">КВАЗАР</span>
+            </span>
+            <span class="proof-hud__loc">📍 СПб, Итальянская</span>
+          </div>
+
+          <div class="proof-hud__metrics">
+            <div class="metric">
+              <div class="metric__num" data-from="0" data-to="6">6+</div>
+              <div class="metric__lbl">турниров проведено</div>
+            </div>
+            <div class="metric">
+              <div class="metric__num">20+</div>
+              <div class="metric__lbl">команд собрано</div>
+            </div>
+            <div class="metric">
+              <div class="metric__num">150+</div>
+              <div class="metric__lbl">студентов вовлечено</div>
+            </div>
+            <div class="metric">
+              <div class="metric__num">3</div>
+              <div class="metric__lbl">игры активно · 4&nbsp;готовятся</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="proof-row">
+          <!-- Левая колонка: что даёт киберспорт -->
+          <div class="proof-card reveal" data-anim="left" style="--d:.2s">
+            <div class="proof-card__head">
+              <span class="proof-card__kbd">▣</span>
+              <h3>Зачем это студенту&nbsp;и&nbsp;площадке</h3>
+            </div>
+            <ul class="proof-list">
+              <li><span class="proof-list__num">01</span>объединяет в&nbsp;команды поверх потоков</li>
+              <li><span class="proof-list__num">02</span>тренирует коммуникацию и&nbsp;стратегию</li>
+              <li><span class="proof-list__num">03</span>даёт ритм событий&nbsp;— активная среда</li>
+              <li><span class="proof-list__num">04</span>повышает удержание и&nbsp;NPS площадки</li>
+              <li><span class="proof-list__num">05</span>работает как магнит для&nbsp;абитуриентов</li>
+            </ul>
+
+            <div class="proof-games">
+              <span class="proof-games__lbl">⚔ ИГРЫ В РАБОТЕ:</span>
+              <span class="game-chip game-chip--live">Dota&nbsp;2</span>
+              <span class="game-chip game-chip--live">CS2</span>
+              <span class="game-chip game-chip--live">Valorant</span>
+              <span class="game-chip">LoL</span>
+              <span class="game-chip">OW2</span>
+              <span class="game-chip">Apex</span>
+              <span class="game-chip">PUBG</span>
+            </div>
+          </div>
+
+          <!-- Правая колонка: реальный скриншот платформы -->
+          <div class="proof-screen reveal" data-anim="right" style="--d:.3s">
+            <div class="proof-screen__bar">
+              <span class="proof-screen__url">
+                <span class="proof-screen__lock">▣</span>
+                tvoyasredapro.ru&nbsp;/&nbsp;team
+              </span>
+              <span class="proof-screen__bar-ctrls">
+                <i class="proof-screen__led"></i>
+                <i class="proof-screen__led proof-screen__led--2"></i>
+                <i class="proof-screen__led proof-screen__led--3"></i>
+              </span>
+            </div>
+            <div class="proof-screen__frame">
+              <img src="assets/platform-team.png" alt="Скриншот платформы — рейтинг команды" />
+              <span class="proof-screen__pulse"></span>
+            </div>
+            <div class="proof-screen__foot">
+              <span class="proof-screen__dot"></span>
+              реальный интерфейс работающей платформы
+            </div>
+          </div>
+        </div>
+
+        <a class="proof-site reveal" data-anim="up" style="--d:.36s" href="http://213.226.125.145/" target="_blank" rel="noopener">
+          <span class="proof-site__screen" aria-hidden="true">
+            <span class="proof-site__bar">
+              <span class="proof-site__dot"></span>
+              <span class="proof-site__dot proof-site__dot--red"></span>
+              <span class="proof-site__dot proof-site__dot--green"></span>
+              <span class="proof-site__url">http://213.226.125.145/</span>
+            </span>
+            <span class="proof-site__body">
+              <span class="proof-site__line proof-site__line--wide"></span>
+              <span class="proof-site__line"></span>
+              <span class="proof-site__tiles">
+                <i></i><i></i><i></i>
+              </span>
+            </span>
+          </span>
+          <span class="proof-site__content">
+            <span class="proof-site__eyebrow">КИБЕРСПОРТ-САЙТ</span>
+            <strong>Отдельная площадка под турниры и&nbsp;комьюнити</strong>
+            <span>Расписание, команды, матчи и&nbsp;информационный контур направления.</span>
+          </span>
+          <span class="proof-site__cta">ОТКРЫТЬ&nbsp;САЙТ&nbsp;↗</span>
+        </a>
+
+        <!-- План развития -->
+        <div class="proof-roadmap reveal" data-anim="up" style="--d:.4s">
+          <span class="proof-roadmap__lbl">NEXT&nbsp;→</span>
+          <span class="proof-roadmap__item">больше турниров и&nbsp;сезонов</span>
+          <span class="proof-roadmap__sep">·</span>
+          <span class="proof-roadmap__item">новые игры и&nbsp;команды</span>
+          <span class="proof-roadmap__sep">·</span>
+          <span class="proof-roadmap__item">медиа-сопровождение</span>
+          <span class="proof-roadmap__sep">·</span>
+          <span class="proof-roadmap__item">масштаб на&nbsp;другие площадки IT&nbsp;TOP</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 8: НАПРАВЛЕНИЯ MVP ====== -->
+    <section class="slide slide--products" data-title="Направления MVP">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 08 — НАПРАВЛЕНИЯ MVP</div>
+          <h2 class="section__title">
+            5&nbsp;направлений&nbsp;— одна&nbsp;<span class="accent-blue">экосистема</span>
+          </h2>
+          <p class="lead products__lead">
+            Каждое можно запускать <em>отдельно</em>, а&nbsp;вместе они собираются
+            в&nbsp;цифровой контур развития студента. Это <strong>не&nbsp;замена</strong>
+            программе IT&nbsp;TOP, а&nbsp;практический слой вокруг обучения:
+            от&nbsp;навыков и&nbsp;проектов до&nbsp;команд и&nbsp;карьерного старта.
+          </p>
+        </div>
+
+        <div class="products-map reveal" data-anim="up" style="--d:.12s" aria-label="Карта направлений MVP">
+          <div class="products-map__bar">
+            <span>mvp_stack.exe</span>
+            <span class="products-map__ctrls">_ □ ×</span>
+          </div>
+          <div class="products-map__body">
+            <div class="products-map__hub">
+              <span>ТВОЯ&nbsp;СРЕДА</span>
+              <strong>MVP&nbsp;CORE</strong>
+            </div>
+            <div class="products-map__flow">
+              <span class="products-map__node">траектории</span>
+              <span class="products-map__node">тренажёры</span>
+              <span class="products-map__node products-map__node--hot">HardCode</span>
+              <span class="products-map__node">команды</span>
+              <span class="products-map__node">Career&nbsp;AI</span>
+            </div>
+            <div class="products-map__status">
+              <span class="products-map__pulse"></span>
+              запуск модульно · масштабирование без&nbsp;нагрузки на&nbsp;штат
+            </div>
+          </div>
+        </div>
+
+        <div class="products">
+          <!-- 01: Траектории -->
+          <article class="product reveal" data-anim="up" style="--d:.05s; --i:0">
+            <div class="product__num">01</div>
+            <div class="product__icon">
+              <svg viewBox="0 0 16 16" width="36" height="36" aria-hidden="true">
+                <rect x="2" y="2" width="3" height="3" fill="currentColor"/>
+                <rect x="7" y="6" width="3" height="3" fill="currentColor"/>
+                <rect x="11" y="11" width="3" height="3" fill="currentColor"/>
+                <rect x="5" y="4" width="2" height="1" fill="currentColor"/>
+                <rect x="9" y="8" width="2" height="1" fill="currentColor"/>
+                <rect x="5" y="3" width="1" height="2" fill="currentColor"/>
+                <rect x="9" y="7" width="1" height="2" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Узкие траектории</h3>
+            <p class="product__pitch">точечные маршруты по&nbsp;конкретным темам и&nbsp;навыкам</p>
+            <ul class="product__bullets">
+              <li>закрывает «провал» в&nbsp;отдельной теме</li>
+              <li>возвращает интерес к&nbsp;направлению</li>
+              <li>проходится за&nbsp;часы, а&nbsp;не&nbsp;месяцы</li>
+            </ul>
+            <span class="product__status product__status--live">LIVE</span>
+          </article>
+
+          <!-- 02: Тренажёры -->
+          <article class="product reveal" data-anim="up" style="--d:.1s; --i:1">
+            <div class="product__num">02</div>
+            <div class="product__icon">
+              <svg viewBox="0 0 16 16" width="36" height="36" aria-hidden="true">
+                <rect x="1" y="5" width="14" height="6" fill="currentColor"/>
+                <rect x="3" y="7" width="1" height="2" fill="#fff"/>
+                <rect x="4" y="8" width="1" height="1" fill="#fff"/>
+                <rect x="2" y="8" width="1" height="1" fill="#fff"/>
+                <rect x="11" y="6" width="1" height="1" fill="#fff"/>
+                <rect x="13" y="7" width="1" height="1" fill="#fff"/>
+              </svg>
+            </div>
+            <h3>Тренажёры</h3>
+            <p class="product__pitch">ИИ-кейсы для&nbsp;code, дизайна, проектов, коммуникаций</p>
+            <ul class="product__bullets">
+              <li>интерактивная обратная связь от&nbsp;ИИ</li>
+              <li>персональный темп и&nbsp;уровень</li>
+              <li>не&nbsp;только программирование&nbsp;— и&nbsp;soft-skills</li>
+            </ul>
+            <span class="product__status">BETA</span>
+          </article>
+
+          <!-- 03: HardCode -->
+          <article class="product product--accent reveal" data-anim="up" style="--d:.15s; --i:2">
+            <div class="product__num">03</div>
+            <div class="product__icon">
+              <svg viewBox="0 0 16 16" width="36" height="36" aria-hidden="true">
+                <rect x="2" y="4" width="1" height="8" fill="currentColor"/>
+                <rect x="3" y="3" width="1" height="1" fill="currentColor"/>
+                <rect x="3" y="12" width="1" height="1" fill="currentColor"/>
+                <rect x="13" y="4" width="1" height="8" fill="currentColor"/>
+                <rect x="12" y="3" width="1" height="1" fill="currentColor"/>
+                <rect x="12" y="12" width="1" height="1" fill="currentColor"/>
+                <rect x="6" y="6" width="1" height="4" fill="currentColor"/>
+                <rect x="8" y="6" width="1" height="4" fill="currentColor"/>
+                <rect x="10" y="6" width="1" height="4" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>HardCode</h3>
+            <p class="product__pitch">среда сложных задач&nbsp;— наш ответ LeetCode</p>
+            <ul class="product__bullets">
+              <li>задачи под&nbsp;российскую аудиторию</li>
+              <li>алгоритмика + прикладные кейсы</li>
+              <li>встраивается в&nbsp;учебные сценарии</li>
+            </ul>
+            <span class="product__status product__status--soon">FLAGSHIP</span>
+          </article>
+
+          <!-- 04: Match -->
+          <article class="product reveal" data-anim="up" style="--d:.2s; --i:3">
+            <div class="product__num">04</div>
+            <div class="product__icon">
+              <svg viewBox="0 0 16 16" width="36" height="36" aria-hidden="true">
+                <rect x="3" y="3" width="3" height="3" fill="currentColor"/>
+                <rect x="10" y="3" width="3" height="3" fill="currentColor"/>
+                <rect x="2" y="9" width="5" height="4" fill="currentColor"/>
+                <rect x="9" y="9" width="5" height="4" fill="currentColor"/>
+                <rect x="7" y="7" width="2" height="1" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Match&nbsp;/ Команды</h3>
+            <p class="product__pitch">проф.&nbsp;мэтчинг под&nbsp;проекты, команды, инициативы</p>
+            <ul class="product__bullets">
+              <li>профиль с&nbsp;навыками и&nbsp;целями</li>
+              <li>поиск под&nbsp;хакатоны, стартапы, курсачи</li>
+              <li>не&nbsp;знакомства&nbsp;— команды под&nbsp;задачу</li>
+            </ul>
+            <span class="product__status">LIVE</span>
+          </article>
+
+          <!-- 05: Career AI -->
+          <article class="product reveal" data-anim="up" style="--d:.25s; --i:4">
+            <div class="product__num">05</div>
+            <div class="product__icon">
+              <svg viewBox="0 0 16 16" width="36" height="36" aria-hidden="true">
+                <rect x="4" y="2" width="8" height="2" fill="currentColor"/>
+                <rect x="3" y="4" width="10" height="7" fill="currentColor"/>
+                <rect x="5" y="6" width="2" height="2" fill="#fff"/>
+                <rect x="9" y="6" width="2" height="2" fill="#fff"/>
+                <rect x="6" y="9" width="4" height="1" fill="#fff"/>
+                <rect x="5" y="11" width="2" height="3" fill="currentColor"/>
+                <rect x="9" y="11" width="2" height="3" fill="currentColor"/>
+              </svg>
+            </div>
+            <h3>Career&nbsp;AI</h3>
+            <p class="product__pitch">резюме, упаковка кейсов и&nbsp;мок-собес с&nbsp;ИИ</p>
+            <ul class="product__bullets">
+              <li>генерация и&nbsp;ревью CV</li>
+              <li>имитация интервью с&nbsp;разбором</li>
+              <li>находит слабые места и&nbsp;даёт правки</li>
+            </ul>
+            <span class="product__status">BETA</span>
+          </article>
+        </div>
+
+        <p class="products__footnote reveal" data-anim="up" style="--d:.4s">
+          ▣ Это <strong>MVP</strong>&nbsp;— основа экосистемы. Каждое направление можно
+          встроить в&nbsp;учебный процесс IT&nbsp;TOP отдельно или комплексно,
+          без&nbsp;нагрузки на&nbsp;штат площадки.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 9: MVP → МАСШТАБ ====== -->
+    <section class="slide slide--scale slide--blue" data-title="MVP → масштаб">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag tag--light">_□× / СЛАЙД 09 — MVP → МАСШТАБ</div>
+          <h2 class="section__title section__title--light">
+            Сегодня <span class="accent-white">MVP</span> — завтра <span class="accent-white">экосистема</span>
+          </h2>
+          <p class="lead lead--light scale__lead">
+            То, что вы&nbsp;видите сейчас&nbsp;— не&nbsp;финальный набор. Это <em>основа</em>,
+            на&nbsp;которой собирается полноценная цифровая среда развития.
+            Современные технологии дают пространство для&nbsp;роста.
+          </p>
+        </div>
+
+        <!-- Шкала роста -->
+        <div class="scale-bar reveal" data-anim="up" style="--d:.15s">
+          <!-- Сейчас -->
+          <div class="scale-stage scale-stage--now">
+            <div class="scale-stage__head">
+              <span class="scale-stage__tag">NOW</span>
+              <span class="scale-stage__year">MVP</span>
+            </div>
+            <h3>Базовая экосистема</h3>
+            <ul>
+              <li>▣ траектории, тренажёры, HardCode</li>
+              <li>▣ матчинг команд, Career&nbsp;AI</li>
+              <li>▣ кейс киберспорта в&nbsp;IT&nbsp;TOP&nbsp;СПб</li>
+            </ul>
+            <div class="scale-stage__progress">
+              <div class="scale-stage__progress-fill" style="--w:25%"></div>
+              <span>25% MVP&nbsp;готов</span>
+            </div>
+          </div>
+
+          <div class="scale-arrow">
+            <span class="scale-arrow__line"></span>
+            <span class="scale-arrow__head">▶</span>
+          </div>
+
+          <!-- Дальше -->
+          <div class="scale-stage scale-stage--next">
+            <div class="scale-stage__head">
+              <span class="scale-stage__tag scale-stage__tag--next">NEXT</span>
+              <span class="scale-stage__year">+6 мес</span>
+            </div>
+            <h3>Расширение</h3>
+            <ul>
+              <li>▶ новые траектории и&nbsp;дисциплины</li>
+              <li>▶ медиа-сопровождение событий</li>
+              <li>▶ интеграция с&nbsp;LMS площадок</li>
+              <li>▶ аналитика прогресса студентов</li>
+            </ul>
+          </div>
+
+          <div class="scale-arrow">
+            <span class="scale-arrow__line"></span>
+            <span class="scale-arrow__head">▶</span>
+          </div>
+
+          <!-- Видение -->
+          <div class="scale-stage scale-stage--future">
+            <div class="scale-stage__head">
+              <span class="scale-stage__tag scale-stage__tag--future">2027+</span>
+              <span class="scale-stage__year">VISION</span>
+            </div>
+            <h3>Полная экосистема</h3>
+            <ul>
+              <li>★ сеть площадок-партнёров</li>
+              <li>★ карьерный шлюз к&nbsp;работодателям</li>
+              <li>★ стартап-программа на&nbsp;базе сред</li>
+              <li>★ цифровой паспорт студента</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Win-win плашки развития -->
+        <div class="scale__bottom reveal" data-anim="up" style="--d:.4s">
+          <div class="journey__chip">
+            <span class="journey__chip-lbl">для IT&nbsp;TOP</span>
+            <span>+&nbsp;доступ ко&nbsp;всем будущим продуктам без&nbsp;доп.&nbsp;инвестиций</span>
+          </div>
+          <div class="journey__chip journey__chip--alt">
+            <span class="journey__chip-lbl">для ТВОЕЙ&nbsp;СРЕДЫ</span>
+            <span>+&nbsp;якорный партнёр и&nbsp;площадка для&nbsp;развития продукта</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 10: АУДИТОРИЯ ====== -->
+    <section class="slide slide--audience" data-title="Аудитория">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 10 — АУДИТОРИЯ</div>
+          <h2 class="section__title">
+            Для тех, кто хочет, но&nbsp;<span class="accent-blue">не&nbsp;решается</span>
+          </h2>
+          <p class="lead audience__lead">
+            Главный барьер студента&nbsp;— не&nbsp;знания, а&nbsp;<em>страх первого шага</em>:
+            задать вопрос, показать сырой результат, присоединиться к&nbsp;команде.
+            ТВОЯ&nbsp;СРЕДА&nbsp;— безопасное пространство, где ошибаться нормально.
+          </p>
+        </div>
+
+        <!-- Сегменты аудитории -->
+        <div class="segments reveal" data-anim="up" style="--d:.1s">
+          <div class="segment">
+            <div class="segment__icon">
+              <svg viewBox="0 0 16 16" width="22" height="22"><rect x="5" y="2" width="6" height="3" fill="currentColor"/><rect x="3" y="5" width="10" height="8" fill="currentColor"/><rect x="6" y="8" width="4" height="2" fill="#fff"/></svg>
+            </div>
+            <span>СПО&nbsp;/ колледжи</span>
+          </div>
+          <div class="segment">
+            <div class="segment__icon">
+              <svg viewBox="0 0 16 16" width="22" height="22"><rect x="2" y="6" width="12" height="8" fill="currentColor"/><rect x="4" y="2" width="8" height="4" fill="currentColor"/><rect x="6" y="10" width="4" height="4" fill="#fff"/></svg>
+            </div>
+            <span>Вузы</span>
+          </div>
+          <div class="segment">
+            <div class="segment__icon">
+              <svg viewBox="0 0 16 16" width="22" height="22"><rect x="6" y="2" width="4" height="4" fill="currentColor"/><rect x="3" y="7" width="10" height="7" fill="currentColor"/><rect x="5" y="9" width="2" height="2" fill="#fff"/><rect x="9" y="9" width="2" height="2" fill="#fff"/></svg>
+            </div>
+            <span>Старшие&nbsp;классы</span>
+          </div>
+          <div class="segment">
+            <div class="segment__icon">
+              <svg viewBox="0 0 16 16" width="22" height="22"><rect x="4" y="2" width="8" height="3" fill="currentColor"/><rect x="2" y="5" width="12" height="6" fill="currentColor"/><rect x="5" y="11" width="6" height="3" fill="currentColor"/></svg>
+            </div>
+            <span>Молодые&nbsp;специалисты</span>
+          </div>
+          <div class="segment">
+            <div class="segment__icon">
+              <svg viewBox="0 0 16 16" width="22" height="22"><rect x="3" y="3" width="10" height="2" fill="currentColor"/><rect x="3" y="7" width="10" height="2" fill="currentColor"/><rect x="3" y="11" width="10" height="2" fill="currentColor"/><rect x="14" y="3" width="1" height="10" fill="currentColor"/></svg>
+            </div>
+            <span>Reskill&nbsp;/ взрослые</span>
+          </div>
+        </div>
+
+        <!-- Чат-интерфейс: страхи vs ответы среды -->
+        <div class="chat reveal" data-anim="up" style="--d:.2s">
+          <div class="chat__bar">
+            <span>tvoya-sreda://chat</span>
+            <span class="chat__bar-ctrls">
+              <i class="chat__led"></i>
+              <i class="chat__led chat__led--2"></i>
+              <i class="chat__led chat__led--3"></i>
+            </span>
+          </div>
+
+          <div class="chat__body">
+            <!-- Диалог 1 -->
+            <div class="chat-msg chat-msg--user" style="--d:.3s">
+              <div class="chat-msg__avatar chat-msg__avatar--user">?</div>
+              <div class="chat-msg__bubble">а&nbsp;вдруг вопрос будет глупый…</div>
+            </div>
+            <div class="chat-msg chat-msg--bot" style="--d:.5s">
+              <div class="chat-msg__avatar chat-msg__avatar--bot">▣</div>
+              <div class="chat-msg__bubble">→ ИИ-помощник без&nbsp;оценки. Спрашивай как угодно.</div>
+            </div>
+
+            <!-- Диалог 2 -->
+            <div class="chat-msg chat-msg--user" style="--d:1.0s">
+              <div class="chat-msg__avatar chat-msg__avatar--user">?</div>
+              <div class="chat-msg__bubble">пока не&nbsp;уверен в&nbsp;результате</div>
+            </div>
+            <div class="chat-msg chat-msg--bot" style="--d:1.2s">
+              <div class="chat-msg__avatar chat-msg__avatar--bot">▣</div>
+              <div class="chat-msg__bubble">→ закрытый черновик. Дорабатываешь и&nbsp;показываешь готовую версию.</div>
+            </div>
+
+            <!-- Диалог 3 -->
+            <div class="chat-msg chat-msg--user" style="--d:1.7s">
+              <div class="chat-msg__avatar chat-msg__avatar--user">?</div>
+              <div class="chat-msg__bubble">не&nbsp;понимаю, с&nbsp;кем идти в&nbsp;команду</div>
+            </div>
+            <div class="chat-msg chat-msg--bot" style="--d:1.9s">
+              <div class="chat-msg__avatar chat-msg__avatar--bot">▣</div>
+              <div class="chat-msg__bubble">→ подбор по&nbsp;навыкам и&nbsp;темпу. Роли в&nbsp;команде сразу понятны.</div>
+            </div>
+
+            <!-- Диалог 4 -->
+            <div class="chat-msg chat-msg--user" style="--d:2.4s">
+              <div class="chat-msg__avatar chat-msg__avatar--user">?</div>
+              <div class="chat-msg__bubble">не&nbsp;пройду собес&nbsp;— зачем&nbsp;откликаться</div>
+            </div>
+            <div class="chat-msg chat-msg--bot" style="--d:2.6s">
+              <div class="chat-msg__avatar chat-msg__avatar--bot">▣</div>
+              <div class="chat-msg__bubble">→ мок-интервью с&nbsp;ИИ. Тренируешься, пока не&nbsp;уверен.</div>
+            </div>
+
+            <div class="chat__typing">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+
+          <div class="chat__foot">
+            <span class="chat__foot-dot"></span>
+            ТВОЯ&nbsp;СРЕДА работает 24/7&nbsp;— без&nbsp;оценок и&nbsp;осуждения
+          </div>
+        </div>
+
+        <!-- Формула / итог -->
+        <div class="audience-formula reveal" data-anim="up" style="--d:.45s">
+          <span class="audience-formula__left">от&nbsp;страха</span>
+          <span class="audience-formula__arrow">▶</span>
+          <span class="audience-formula__right">к&nbsp;движению</span>
+          <span class="audience-formula__sep">·</span>
+          <span class="audience-formula__left">от&nbsp;неуверенности</span>
+          <span class="audience-formula__arrow">▶</span>
+          <span class="audience-formula__right">к&nbsp;реальным действиям</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 11: ЧТО МОЖЕМ ПРЕДЛОЖИТЬ ====== -->
+    <section class="slide slide--formats" data-title="Что предлагаем">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag">_□× / СЛАЙД 11 — ДОПОЛНИТЕЛЬНО МОЖЕМ</div>
+          <h2 class="section__title">
+            Что&nbsp;<span class="accent-blue">можем предложить</span> дополнительно
+          </h2>
+          <p class="lead formats__lead">
+            Помимо базовой коллабы&nbsp;— это <em>опции на&nbsp;будущее</em>: форматы,
+            которые мы&nbsp;готовы развернуть, когда у&nbsp;IT&nbsp;TOP появится задача.
+            Запускаем по&nbsp;запросу, под&nbsp;конкретный результат.
+          </p>
+        </div>
+
+        <div class="formats__grid">
+          <div class="format reveal" data-anim="up" style="--d:.05s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="2" y="2" width="12" height="2" fill="currentColor"/><rect x="2" y="6" width="12" height="2" fill="currentColor"/><rect x="2" y="10" width="12" height="2" fill="currentColor"/></svg></div>
+            <span class="format__badge">MERCH</span>
+            <h3>Капсульный мерч</h3>
+            <p>Лимитированная коллекция в&nbsp;двойном брендинге: худи, аксессуары, стикеры.</p>
+            <span class="format__winwin">→ узнаваемость + лояльность студентов</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.15s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="6" y="2" width="4" height="4" fill="currentColor"/><rect x="2" y="6" width="12" height="6" fill="currentColor"/><rect x="4" y="12" width="2" height="2" fill="currentColor"/><rect x="10" y="12" width="2" height="2" fill="currentColor"/></svg></div>
+            <span class="format__badge format__badge--hot">FAST</span>
+            <h3>Ивент&nbsp;/ open-day</h3>
+            <p>Совместное офлайн-событие на&nbsp;площадке IT&nbsp;TOP под&nbsp;ключ.</p>
+            <span class="format__winwin">→ поток абитуриентов + контент в&nbsp;соц.&nbsp;сети</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.25s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="2" y="2" width="2" height="2" fill="currentColor"/><rect x="6" y="2" width="2" height="2" fill="currentColor"/><rect x="10" y="2" width="2" height="2" fill="currentColor"/><rect x="2" y="6" width="12" height="6" fill="currentColor"/></svg></div>
+            <span class="format__badge">SMM</span>
+            <h3>Контент-серия</h3>
+            <p>SMM-сериал про&nbsp;айти и&nbsp;среду. Reels&nbsp;/ TikTok&nbsp;/ VK&nbsp;Видео.</p>
+            <span class="format__winwin">→ органический охват без&nbsp;медиа-бюджета</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.35s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="4" y="2" width="8" height="2" fill="currentColor"/><rect x="2" y="4" width="12" height="8" fill="currentColor"/><rect x="6" y="12" width="4" height="2" fill="currentColor"/></svg></div>
+            <span class="format__badge">PEOPLE</span>
+            <h3>Амбассадоры</h3>
+            <p>Студенты IT&nbsp;TOP&nbsp;— лица кампании. Их&nbsp;истории = ваш сторителлинг.</p>
+            <span class="format__winwin">→ живой PR от&nbsp;первого лица</span>
+          </div>
+
+          <div class="format format--flagship reveal" data-anim="up" style="--d:.45s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="2" y="4" width="2" height="8" fill="currentColor"/><rect x="12" y="4" width="2" height="8" fill="currentColor"/><rect x="4" y="2" width="8" height="2" fill="currentColor"/><rect x="4" y="12" width="8" height="2" fill="currentColor"/><rect x="7" y="6" width="2" height="4" fill="currentColor"/></svg></div>
+            <span class="format__badge format__badge--flagship">★ FLAGSHIP</span>
+            <h3>Брендированный курс</h3>
+            <p>Мини-курс&nbsp;/ интенсив с&nbsp;вашим неймингом, дизайном и&nbsp;маскотом.</p>
+            <span class="format__winwin">→ новый поток + готовый продукт</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.55s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="2" y="2" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"/><rect x="6" y="6" width="4" height="4" fill="currentColor"/></svg></div>
+            <span class="format__badge">DIGITAL</span>
+            <h3>Партнёрский лендинг</h3>
+            <p>Промо-страница с&nbsp;воронкой записи, аналитикой и&nbsp;двойным CTA.</p>
+            <span class="format__winwin">→ измеримые лиды и&nbsp;конверсия</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.65s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="3" y="3" width="3" height="3" fill="currentColor"/><rect x="10" y="3" width="3" height="3" fill="currentColor"/><rect x="2" y="9" width="5" height="4" fill="currentColor"/><rect x="9" y="9" width="5" height="4" fill="currentColor"/></svg></div>
+            <span class="format__badge format__badge--hot">PROOF</span>
+            <h3>Турниры&nbsp;/ хакатоны</h3>
+            <p>Готовая турнирная система уже работает в&nbsp;СПб (Квазар). Развернём у&nbsp;вас.</p>
+            <span class="format__winwin">→ студ.&nbsp;движение + удержание</span>
+          </div>
+
+          <div class="format reveal" data-anim="up" style="--d:.75s">
+            <div class="format__icon"><svg viewBox="0 0 16 16" width="36" height="36"><rect x="2" y="2" width="12" height="2" fill="currentColor"/><rect x="2" y="4" width="2" height="10" fill="currentColor"/><rect x="12" y="4" width="2" height="10" fill="currentColor"/><rect x="5" y="7" width="2" height="2" fill="currentColor"/><rect x="9" y="7" width="2" height="2" fill="currentColor"/><rect x="6" y="10" width="4" height="1" fill="currentColor"/></svg></div>
+            <span class="format__badge">AI</span>
+            <h3>AI-интеграции</h3>
+            <p>Подключение Career&nbsp;AI, тренажёров и&nbsp;HardCode в&nbsp;учебный процесс.</p>
+            <span class="format__winwin">→ wow-эффект и&nbsp;конкурентное преимущество</span>
+          </div>
+        </div>
+
+        <p class="formats__footnote reveal" data-anim="up" style="--d:.85s">
+          ▣ Все форматы можно комбинировать. Стартуем с&nbsp;того, что&nbsp;даст
+          <strong>быстрый видимый эффект</strong>&nbsp;— и&nbsp;разворачиваем дальше.
+        </p>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 12: ПОСТЕРЫ / LOOKBOOK ====== -->
+    <section class="slide slide--showcase" data-title="Постеры">
+      <div class="slide__inner">
+        <div class="section__head reveal" data-anim="up">
+          <div class="tag tag--light">_□× / СЛАЙД 12 — LOOKBOOK</div>
+          <h2 class="section__title section__title--light">
+            Так выглядит&nbsp;<span class="accent-white">бренд</span> в&nbsp;кампании
+          </h2>
+          <p class="lead lead--light lookbook__lead">
+            Готовые постеры под&nbsp;ко-брендинг с&nbsp;IT&nbsp;TOP. Узнаваемый visual&nbsp;code,
+            модные модели, пиксельная стилистика&nbsp;— work в&nbsp;соцсетях, мерче, наружке.
+          </p>
+        </div>
+
+        <div class="lookbook">
+          <figure class="lookbook__item reveal" data-anim="left" style="--d:.1s">
+            <div class="lookbook__frame">
+              <img src="assets/poster-boy.jpg" alt="ТВОЯ СРЕДА — гоу исследовать" />
+              <span class="lookbook__sticker lookbook__sticker--tl">_□×<br>POSTER&nbsp;01</span>
+              <span class="lookbook__sticker lookbook__sticker--br">★&nbsp;LIVE</span>
+            </div>
+            <figcaption>
+              <span class="lookbook__cap-lbl">SS&nbsp;/&nbsp;ГОУ&nbsp;ИССЛЕДОВАТЬ</span>
+              <span class="lookbook__cap-txt">кампания «загружает новые возможности»</span>
+            </figcaption>
+          </figure>
+
+          <figure class="lookbook__item reveal" data-anim="right" style="--d:.2s">
+            <div class="lookbook__frame">
+              <img src="assets/mascot-lego.jpg" alt="ТВОЯ СРЕДА — твои правила" />
+              <span class="lookbook__sticker lookbook__sticker--tl">_□×<br>POSTER&nbsp;02</span>
+              <span class="lookbook__sticker lookbook__sticker--br">★&nbsp;LIVE</span>
+            </div>
+            <figcaption>
+              <span class="lookbook__cap-lbl">FW&nbsp;/&nbsp;ТВОИ&nbsp;ПРАВИЛА</span>
+              <span class="lookbook__cap-txt">кампания «ТВОЯ&nbsp;СРЕДА&nbsp;— твои правила»</span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <p class="lookbook__note reveal" data-anim="up" style="--d:.4s">
+          ▣ полный медиа-кит, гайдлайн и&nbsp;адаптации под&nbsp;любые форматы&nbsp;— по&nbsp;запросу
+        </p>
+      </div>
+    </section>
+
+    <!-- ====== СЛАЙД 13: CTA / КОНТАКТЫ ====== -->
+    <section class="slide slide--cta slide--blue" data-title="Контакты">
+      <div class="slide__inner cta__inner">
+        <div class="cta__txt reveal" data-anim="left">
+          <div class="tag tag--light">_□× / СЛАЙД 13 — СЛЕДУЮЩИЙ ШАГ</div>
+          <h2 class="section__title section__title--light">
+            Запускаем&nbsp;<span class="accent-white">коллабу</span>?
+          </h2>
+          <p class="lead lead--light">
+            Готовы прислать полную презентацию, медиа-кит и&nbsp;коммерческое
+            предложение под&nbsp;задачи IT&nbsp;TOP. Стартуем с&nbsp;того, что&nbsp;даст
+            быстрый видимый эффект.
+          </p>
+
+          <div class="contacts-list">
+            <a class="contact-row contact-row--link" href="https://tvoyasredapro.ru" target="_blank" rel="noopener">
+              <span class="contact-row__lbl">_SITE</span>
+              <span class="contact-row__val">tvoyasredapro.ru</span>
+              <span class="contact-row__arrow">↗</span>
+            </a>
+            <a class="contact-row contact-row--link contact-row--accent" href="https://t.me/TvoyaSreda_admin" target="_blank" rel="noopener">
+              <span class="contact-row__lbl">_TG&nbsp;WORK</span>
+              <span class="contact-row__val">@TvoyaSreda_admin</span>
+              <span class="contact-row__arrow">↗</span>
+            </a>
+            <a class="contact-row contact-row--link" href="https://t.me/maxim_tvoya_sreda" target="_blank" rel="noopener">
+              <span class="contact-row__lbl">_TG&nbsp;ME</span>
+              <span class="contact-row__val">@maxim_tvoya_sreda</span>
+              <span class="contact-row__arrow">↗</span>
+            </a>
+          </div>
+
+          <div class="cta__btns">
+            <a class="btn btn--white" href="https://t.me/TvoyaSreda_admin" target="_blank" rel="noopener">
+              НАПИСАТЬ&nbsp;В&nbsp;TG
+            </a>
+            <a class="btn btn--ghost-light" href="https://tvoyasredapro.ru" target="_blank" rel="noopener">
+              ОТКРЫТЬ&nbsp;САЙТ
+            </a>
+          </div>
+        </div>
+
+        <div class="cta__pixel reveal" data-anim="right">
+          <div class="dialog">
+            <div class="dialog__bar"><span>chat.exe</span><span>_ □ ×</span></div>
+            <div class="dialog__body">
+              <p>&gt; запустить переговоры?</p>
+              <p>&gt; <span class="blink">█</span></p>
+              <div class="dialog__btns">
+                <button class="dialog__btn">[ ДА ]</button>
+                <button class="dialog__btn dialog__btn--ghost">[ ПОЗЖЕ ]</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="end-stamp">
+            <span class="end-stamp__line"></span>
+            <span class="end-stamp__txt">END OF DEMO</span>
+            <span class="end-stamp__line"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script>
+    // ============ INTRO ============
+    const intro = document.getElementById('intro');
+    const introCta = document.getElementById('introCta');
+    const deck = document.getElementById('deck');
+
+    function enterDeck() {
+      intro.classList.add('intro--hide');
+      setTimeout(() => { intro.style.display = 'none'; }, 900);
+    }
+    introCta.addEventListener('click', enterDeck);
+    window.addEventListener('keydown', (e) => {
+      if (!intro.classList.contains('intro--hide')) {
+        if (e.key === 'Enter' || e.key === ' ' || e.key === 'ArrowDown') {
+          e.preventDefault(); enterDeck();
+        }
+      }
+    });
+
+    // ============ SLIDES ============
+    const slides = Array.from(document.querySelectorAll('.slide'));
+    const total = slides.length;
+    const slideNum = document.getElementById('slideNum');
+    const slideTotal = document.getElementById('slideTotal');
+    const dots = document.getElementById('dots');
+    const prevBtn = document.getElementById('prevBtn');
+    const nextBtn = document.getElementById('nextBtn');
+
+    slideTotal.textContent = String(total).padStart(2, '0');
+
+    // build dots
+    slides.forEach((s, i) => {
+      const d = document.createElement('button');
+      d.className = 'dot';
+      d.type = 'button';
+      d.setAttribute('aria-label', s.dataset.title || ('Слайд ' + (i+1)));
+      d.innerHTML = `<span class="dot__pip"></span><span class="dot__lbl">${String(i+1).padStart(2,'0')}&nbsp;·&nbsp;${s.dataset.title || ''}</span>`;
+      d.addEventListener('click', () => goToSlide(i));
+      dots.appendChild(d);
+    });
+
+    const dotEls = Array.from(dots.querySelectorAll('.dot'));
+
+    // Explicit slide state: переход между слайдами только через кнопку "Дальше".
+    let currentIdx = 0;
+    function goToSlide(idx) {
+      currentIdx = Math.max(0, Math.min(idx, total - 1));
+      slideNum.textContent = String(currentIdx + 1).padStart(2, '0');
+      dotEls.forEach((d, i) => d.classList.toggle('dot--active', i === currentIdx));
+      slides.forEach((s, i) => {
+        s.classList.toggle('slide--active', i === currentIdx);
+        if (i === currentIdx) s.scrollTop = 0;
+      });
+
+      prevBtn.classList.toggle('prev-btn--hidden', currentIdx === 0);
+      nextBtn.classList.toggle('next-btn--hidden', currentIdx === total - 1);
+      document.body.classList.toggle('on-dark', slides[currentIdx].classList.contains('slide--blue'));
+    }
+    goToSlide(0);
+
+    prevBtn.addEventListener('click', () => {
+      goToSlide(currentIdx - 1);
+    });
+
+    // next button — используем currentIdx
+    nextBtn.addEventListener('click', () => {
+      goToSlide(currentIdx + 1);
+    });
+
+    // Блокируем клавиатурное перелистывание: навигация только кнопкой.
+    window.addEventListener('keydown', (e) => {
+      if (intro && intro.style.display !== 'none' && !intro.classList.contains('intro--hide')) return;
+      if (['ArrowDown', 'PageDown', ' ', 'ArrowUp', 'PageUp', 'Home', 'End'].includes(e.key)) {
+        e.preventDefault();
+      }
+    });
+  </script>
+
+</body>
+</html>
